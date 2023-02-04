@@ -5,11 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CURRICULUM VITAE</title>
-    <link href="css/styles.css" rel="stylesheet" />
-    <link
-  href="https://fonts.googleapis.com/css?family=Open+Sans"
-  rel="stylesheet" />
-
+    
     <link rel="icon" type="image/x-icon" href="favicon Raul Carrizo.ico">
 
 
@@ -19,59 +15,79 @@
     <meta property="og:url" content=" http://127.0.0.1:5555/index.html" />
     <meta property="og:image" content=" http://example.com/image.jpg" />
     <meta property="og:description" content="Curriculum" />
+    
+    <style>
+        #div1{
+            background-color: #ff9500;
+        }
+        #div2{
+            background-color: #3cff00;
+        }
+        #div3{
+            background-color: red;
+        }
+        #div4{
+            background-color: violet;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 <body>
-    <img id="imagen"src="torta.jpg" alt="foto de torta"height="200px" width="1200px">
-    <div id="div2">
-        <div>
+    <div class="container-fluid text center">
+        <img id="imagen" class="img-fluid"src="torta.jpg" alt="foto de torta">
+    </div>
+    
+    <div class="container-fluid text center">
+        <div class="row justify-content-evenly">
+            <div id="div1" class= "col">
+                <h1>RAUL CARRIZO</h1>
+                <p>- Asistente de Abordo</p>
+                <p>- Buenos Aires, Argentina</p>
+                <nav>
+                    <ul>
+                        <li><a href="tel:+5491151346776">+5491151346776</a></li>
+                        <li><a href="mailto:cargonwil@hotmail.com">Enviar e-mail a cargonwil@hotmail.com</a></li>
+                    </ul> 
+                </nav> 
+            </div>
+            <div id="div2" class= "col">
+                <h2>EXPERIENCIA LABORAL</h2>
+                <div>
+                    <p>- Jefe Sector Asistentes de Abordo en American Airlines</p>
+                    <p>Marzo 2020 - actualidad</p>
+                </div>
+                <div>
+                    <p>- Asistente de Abordo en American Airlines</p>
+                    <p>Abril 2018 - Marzo 2020</p>
+                </div>
+                <div>
+                    <p>- Cadete en American Airlines</p>
+                    <p>Enero 2015 - Abril 2018</p>
+                </div>     
+            </div>
             
         </div>
-        <div id="div4">
-            <h1>RAUL CARRIZO</h1>
-            <p>- Asistente de Abordo</p>
-            <p>- Buenos Aires, Argentina</p>
-            <nav>
-                <ul>
-                    <li><a href="tel:+5491151346776">+5491151346776</a></li>
-                    <li><a href="mailto:cargonwil@hotmail.com">Enviar e-mail a cargonwil@hotmail.com</a></li>
-                </ul> 
-            </nav>
-        </div>
-        <div id="div4">
-            <h2>HABILIDADES RELEVANTES</h2>
-            <p>- Inglés</p>
-            <p>- Francés</p>
-            <p>- Alemán</p>
-        </div>
-    </div>
-    <div id="div3">
-        <div id="div5">
-            <h2>EXPERIENCIA LABORAL</h2>
-            <div>
-                <p>- Jefe Sector Asistentes de Abordo en American Airlines</p>
-                <p>Marzo 2020 - actualidad</p>
+        <div class="row gx-5">
+            <div id="div3" class="col">
+                <h2>HABILIDADES RELEVANTES</h2>
+                <p>- Inglés</p>
+                <p>- Francés</p>
+                <p>- Alemán</p>
             </div>
-            <div>
-                <p>- Asistente de Abordo en American Airlines</p>
-                <p>Abril 2018 - Marzo 2020</p>
-            </div>
-            <div>
-                <p>- Cadete en American Airlines</p>
-                <p>Enero 2015 - Abril 2018</p>
-            </div>
-        </div>
-        <div id="div5">
-            <h2>EDUCACION</h2>
-            <div>
-                <p>- Escuela Argentina de Asistentes de Abordo</p>
-                <p>Marzo 2014 - Diciembre 2017</p>
-            </div>
-            <div>
-                <p>- Secundario Escuela Normal Nro.1, C.A.B.A.</p>
-                <p>Marzo 2009 - Diciembre 2013</p>
+            <div id="div4" class="col">
+                <h2>EDUCACION</h2>
+                <div>
+                    <p>- Escuela Argentina de Asistentes de Abordo</p>
+                    <p>Marzo 2014 - Diciembre 2017</p>
+                </div>
+                <div>
+                    <p>- Secundario Escuela Normal Nro.1, C.A.B.A.</p>
+                    <p>Marzo 2009 - Diciembre 2013</p>
+                </div>
             </div>
         </div>
     </div>
+    
     <script src="js/comp.js"></script>
 </body>
 </html>
