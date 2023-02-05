@@ -17,6 +17,9 @@
     <meta property="og:description" content="Curriculum" />
     
     <style>
+        #fondo, #fila2{
+            background-color: blue;
+        }
         #div1{
             background-color: #ff9500;
         }
@@ -32,12 +35,12 @@
     </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
+
 <body>
-    <div class="container-fluid text center">
+    <div id= "fondo"class="container-fluid text center">
         <img id="imagen" class="img-fluid"src="torta.jpg" alt="foto de torta">
     </div>
-    
-    <div class="container-fluid text center">
+       <div class="container-fluid text center">
         <div class="row justify-content-evenly">
             <div id="div1" class= "col">
                 <h1>RAUL CARRIZO</h1>
@@ -47,11 +50,51 @@
                     <ul>
                         <li><a href="tel:+5491151346776">+5491151346776</a></li>
                         <li><a href="mailto:cargonwil@hotmail.com">Enviar e-mail a cargonwil@hotmail.com</a></li>
+                        <li><a href="entrevista.html" target="_blank">Prefiere que me contacte con Usted?</a></li>
                     </ul> 
                 </nav> 
             </div>
             <div id="div2" class= "col">
                 <h2>EXPERIENCIA LABORAL</h2>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Jefe Sector Asistentes de Abordo en American Airlines
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Marzo 2020 - actualidad</strong> 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Asistente de Abordo en American Airlines
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Abril 2018 - Marzo 2020</strong> 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Cadete en American Airlines
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>Enero 2015 - Abril 2018</strong>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <!--
                 <div>
                     <p>- Jefe Sector Asistentes de Abordo en American Airlines</p>
                     <p>Marzo 2020 - actualidad</p>
@@ -65,9 +108,9 @@
                     <p>Enero 2015 - Abril 2018</p>
                 </div>     
             </div>
-            
+            -->
         </div>
-        <div class="row gx-5">
+        <div class="row gx-5" id="fila2">
             <div id="div3" class="col">
                 <h2>HABILIDADES RELEVANTES</h2>
                 <p>- Inglés</p>
@@ -88,6 +131,9 @@
         </div>
     </div>
     
-    <script src="js/comp.js"></script>
+    <script src="js/comp.js">
+
+    </script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
 </body>
 </html>
