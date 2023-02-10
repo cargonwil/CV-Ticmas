@@ -8,9 +8,9 @@
     "orientation": "portrait-primary",
     "icons": [
         {
-            "src": "/CV-Ticmas/plane-icon.png",
+            "src": "plane-icon.png",
             "type": "image/png",
-            "sizes": "72x72"
+            "sizes": "192x192"
         }
     ]
 
