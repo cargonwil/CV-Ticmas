@@ -14,13 +14,10 @@ function mouseleave(){
 // Register service worker to control making site work offline
 
 if ("serviceWorker" in navigator){
-    //window.addEventListener("load", function(){
-        //this.navigator.serviceWorker
-    navigator.serviceWorker    
-      .register("/serviceWorker.js")
-      .then(() => { console.log ("service worker registered");});
-      //    .catch (err => console.log ("service worker not registered",err))
-    }
+  navigator.serviceWorker
+    .register("/CV-Ticmas/serviceWorker.js")
+    .then(() => { console.log ("service worker registered");});
+}
 
 // Code to handle install prompt on desktop //
 

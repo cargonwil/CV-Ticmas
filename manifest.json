@@ -1,14 +1,14 @@
 {
     "name" : "CV Raúl Carrizo" ,
     "short-name": "Raúl Carrizo",
-    "start-url": "/index.html",
+    "start-url": "/CV-Ticmas/index.html",
     "display": "standalone",
     "background_color": "#fdfdfd",
     "theme-color": "#db4938",
     "orientation": "portrait-primary",
     "icons": [
         {
-            "src": "/plane-icon.png",
+            "src": "/CV-Ticmas/plane-icon.png",
             "type": "image/png",
             "sizes": "72x72"
         }

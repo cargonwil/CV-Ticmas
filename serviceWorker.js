@@ -3,14 +3,14 @@ const raulCarrizo = "Raul Carrizo"
 
 // Declaro los assets a almacenar en el cache //
 const assets = [
-    "/",
-    "/index.html",
-    "/css/styles.css",
-    "/js/comp.js",
-    "/entrevista.html",
-    "/favicon Raul Carrizo.ico",
-    "/pelicula-el-aviador.jpeg",
-    "/torta.jpg",
+    "/CV-Ticmas/",
+    "/CV-Ticmas/index.html",
+    "/CV-Ticmas/css/styles.css",
+    "/CV-Ticmas/js/comp.js",
+    "/CV-Ticmas/entrevista.html",
+    "/CV-Ticmas/favicon Raul Carrizo.ico",
+    "/CV-Ticmas/pelicula-el-aviador.jpeg",
+    "/CV-Ticmas/torta.jpg",
 ]
 
 // Instalo el service worker //
