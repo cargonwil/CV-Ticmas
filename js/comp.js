@@ -1,4 +1,3 @@
-let myWindow;
 
 document.getElementById("imagen").addEventListener("mouseenter",mouseenter);
 document.getElementById("imagen").addEventListener("mouseleave",mouseleave);
