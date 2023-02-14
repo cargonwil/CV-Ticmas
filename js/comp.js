@@ -1,7 +1,8 @@
-
+let myWindow;
 
 document.getElementById("imagen").addEventListener("mouseenter",mouseenter);
 document.getElementById("imagen").addEventListener("mouseleave",mouseleave);
+
 
 function mouseenter(){
     document.getElementById("imagen").src= "pelicula-el-aviador.jpeg";
@@ -10,6 +11,8 @@ function mouseenter(){
 function mouseleave(){
     document.getElementById("imagen").src= "torta.jpg";
 }
+
+
 
 // Register service worker to control making site work offline
 
